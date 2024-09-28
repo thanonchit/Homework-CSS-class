@@ -1,0 +1,111 @@
+body {
+            font-family: 'Oswald', sans-serif;
+            margin: 50px;
+            padding: 0;
+            background-color: #440000;
+        }
+        .header {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #C9C0BB;
+            border-radius: 20px;
+        }
+        .logo {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .logo img {
+            width: 100px;
+            height: auto;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            background-color: #f8f8f8; /* สีพื้นหลังของกรอบ */
+            border: 2px solid #f8f8f8; /* กรอบสี */
+            border-radius: 20px; /* ทำให้กรอบโค้งมน */
+        }
+        .nav-container nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-container a {
+            text-decoration: none; /* ลบเส้นใต้ */
+            padding: 10px 20px; /* เพิ่ม padding */
+            border-radius: 20px; /* ขอบโค้งมนพื้นฐาน */
+            transition: background-color 0.3s, color 0.3s; /* เพิ่มการเปลี่ยนแปลงสี */
+        }
+        
+        .nav-container a:hover {
+            background-color: #000000; /* สีพื้นหลังเมื่อ hover */
+            color: #ffffff; /* สีข้อความเมื่อ hover */
+            border-radius: 20px; /* ขอบโค้งมนเมื่อ hover */
+        }
+        
+        .nav-container .active {
+            background-color: #000000; /* สีพื้นหลังสำหรับลิงก์ที่เป็น active */
+            color: #ffffff; /* สีข้อความสำหรับลิงก์ที่เป็น active */
+            border-radius: 20px; /* ขอบโค้งมนสำหรับลิงก์ที่เป็น active */
+        }
+        
+        .search-login {
+            display: flex;
+            align-items: center;
+        }
+        .search {
+            display: flex;
+            justify-content: center;
+            font-size: 1em; 
+            text-decoration: none;
+        }
+        .login-button {
+            display: flex;
+            justify-content: center;
+            font-size: 1em; 
+            text-decoration: none;
+        }
+        .title {
+            padding: 40px 40px;
+            background-color: #ffffff;
+            border: 5px solid #ffffff;
+            border-radius: 20px;
+            margin: 3px 0; /* เพิ่มระยะห่างระหว่าง header กับ title */
+        }
+        .title h1 {
+            margin: 0;
+            font-size: 5em;
+            color: #000000;
+        }
+        .champions-image {
+            width: 500px;
+            height: auto;
+            vertical-align: middle;
+            border-radius: 200px; /* ทำให้รูปโค้งมน */
+        }        
+        .container {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 60px 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #C9C0BB;
+            border-radius: 20px;
+            margin: 3px 0;
+        }
+        .item {
+            overflow: hidden;
+        }
+        .item img {
+            width: auto; /* ปรับให้เหมาะสม */
+            height: auto;
+        }
